@@ -5,7 +5,7 @@
 </div>
 
 <p align="center">
-    <a href="https://github.com/ivan-meer/ai-agents-platform/actions">
+    <a href="https://github.com/ivan-meer/agents-sdk-web-ui/actions">
         <img src="https://img.shields.io/github/actions/workflow/status/your-org/ai-agents-platform/ci.yml?style=for-the-badge&logo=github" alt="Build Status">
     </a>
     <a href="https://github.com/your-org/ai-agents-platform/releases">
