@@ -1,135 +1,119 @@
-# 🤖 AI Agents Platform
+# 🤖 AI Agents SDK Web UI
 
-<div align="center">
-    <img src="./src/assets/banner.jpg" alt="AI Agents Platform Banner" width="100%">
-</div>
+## 🌟 Overview
 
-<p align="center">
-    <a href="https://github.com/ivan-meer/agents-sdk-web-ui/actions">
-        <img src="https://img.shields.io/github/actions/workflow/status/your-org/ai-agents-platform/ci.yml?style=for-the-badge&logo=github" alt="Build Status">
-    </a>
-    <a href="https://github.com/your-org/ai-agents-platform/releases">
-        <img src="https://img.shields.io/github/v/release/your-org/ai-agents-platform?style=for-the-badge&logo=semantic-release" alt="Release Version">
-    </a>
-    <a href="https://github.com/your-org/ai-agents-platform/blob/main/LICENSE">
-        <img src="https://img.shields.io/github/license/your-org/ai-agents-platform?style=for-the-badge&logo=open-source-initiative" alt="License MIT">
-    </a>
-</p>
+AI Agents SDK Web UI - это мощная и гибкая платформа для создания, управления и взаимодействия с интеллектуальными агентами на базе искусственного интеллекта.
 
-## 🌟 Обзор проекта
+![Project Banner](./docs/banner.jpg)
 
-**AI Agents Platform** - передовое решение для создания, управления и взаимодействия с интеллектуальными ИИ-агентами, объединяющее мощные технологии искусственного интеллекта и интуитивный пользовательский интерфейс.
+## 🚀 Key Features
 
-## ✨ Ключевые возможности
+### Comprehensive Agent Management
+- Create and configure AI agents with ease
+- Support for multiple Large Language Models (LLMs)
+- Flexible tooling and integration ecosystem
 
-- 🤖 Мультимодельная архитектура
-- 🛡️ Расширенные механизмы безопасности
-- 📊 Полный мониторинг и трассировка агентов
-- 🚀 Горизонтальная масштабируемость
-- 🔌 Гибкая система интеграций
+### Advanced Capabilities
+- 🧠 Multi-model support (OpenAI, Anthropic, Mistral)
+- 🛡️ Advanced security mechanisms
+- 📊 Comprehensive agent tracing and monitoring
+- 🔌 Extensible plugin architecture
 
-## 🛠 Технологический стек
+## 💡 Why AI Agents SDK?
+
+In today's rapidly evolving technological landscape, AI agents are becoming crucial for automating complex tasks, enhancing decision-making, and streamlining workflows. Our SDK provides:
+
+- **Simplified Agent Development**: Build sophisticated AI agents without deep infrastructure knowledge
+- **Cross-Platform Compatibility**: Works seamlessly across different environments
+- **Scalable Architecture**: Design agents that can grow with your project's needs
+
+## 🛠 Technology Stack
 
 ### Backend
-![Python](https://img.shields.io/badge/python-3.9+-blue?style=for-the-badge&logo=python)
-![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
-![PostgreSQL](https://img.shields.io/badge/postgresql-blue?style=for-the-badge&logo=postgresql&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3.9+-blue?style=for-the-badge&logo=python)
+![FastAPI](https://img.shields.io/badge/FastAPI-0.68.0-green?style=for-the-badge&logo=fastapi)
+![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-1.4+-red?style=for-the-badge)
 
 ### Frontend
-![Next.js](https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js)
-![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-14+-black?style=for-the-badge&logo=next.js)
+![React](https://img.shields.io/badge/React-18+-blue?style=for-the-badge&logo=react)
+![TypeScript](https://img.shields.io/badge/TypeScript-5+-white?style=for-the-badge&logo=typescript)
 
-## 🚀 Быстрый старт
+## 🚀 Quick Start
 
-### Предварительные требования
+### Prerequisites
 - Python 3.9+
 - Node.js 18+
-- Docker (опционально)
+- Docker (optional)
 
-### Установка
+### Installation
 
-1. Клонирование репозитория
 ```bash
-git clone https://github.com/your-org/ai-agents-platform.git
-cd ai-agents-platform
-```
+# Clone the repository
+git clone https://github.com/ivan-meer/agents-sdk-web-ui.git
+cd agents-sdk-web-ui
 
-2. Настройка окружения
-```bash
-# Backend
+# Setup backend
 python -m venv venv
 source venv/bin/activate
-pip install -r backend/requirements.txt
+pip install -r requirements.txt
 
-# Frontend
+# Setup frontend
 cd frontend
 npm install
 ```
 
-3. Запуск
+### Running the Application
+
 ```bash
-# Разработка
+# Start backend
+python backend/main.py
+
+# Start frontend
+npm run dev --prefix frontend
+
+# Or use Docker
 docker-compose up --build
-
-# Или раздельно
-cd backend && python main.py
-cd ../frontend && npm run dev
 ```
 
-## 📂 Структура проекта
+## 📘 Documentation
 
-```
-ai-agents-platform/
-├── backend/          # Серверное приложение
-│   ├── agent_platform/
-│   ├── api/
-│   └── ...
-├── frontend/         # Клиентское приложение
-│   ├── src/
-│   └── public/
-├── scripts/          # Служебные скрипты
-└── docs/             # Документация
-```
-
-## 📚 Документация
-
-- [Руководство по архитектуре](docs/ARCHITECTURE.md)
-- [Участие в разработке](CONTRIBUTING.md)
+- [Architecture Overview](docs/ARCHITECTURE.md)
 - [API Reference](docs/API.md)
+- [Deployment Guide](docs/DEPLOYMENT.md)
+- [Contributing Guidelines](CONTRIBUTING.md)
 
-## 🧪 Тестирование
+## 🤝 Contributing
 
-```bash
-# Backend
-pytest backend/tests/
+We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details on how to get started.
 
-# Frontend
-npm test --prefix frontend
-```
+### Ways to Contribute
+- Report bugs
+- Suggest features
+- Submit pull requests
+- Improve documentation
 
-## 🤝 Участие в разработке
+## 🛡️ Security
 
-Мы открыты для pull request'ов и предложений! 
-Пожалуйста, ознакомьтесь с [руководством по участию](CONTRIBUTING.md).
+If you discover a security vulnerability, please email security@aiagents.com.
 
-## 🔒 Безопасность
+## 📊 Project Status
 
-При обнаружении уязвимостей, пожалуйста, отправьте информацию на `security@aiagentsplatform.com`.
+![GitHub stars](https://img.shields.io/github/stars/ivan-meer/agents-sdk-web-ui?style=social)
+![GitHub forks](https://img.shields.io/github/forks/ivan-meer/agents-sdk-web-ui?style=social)
+![GitHub issues](https://img.shields.io/github/issues/ivan-meer/agents-sdk-web-ui)
 
-## 📄 Лицензия
+## 📜 License
 
-Распространяется под лицензией MIT. 
-Подробности в файле [LICENSE](LICENSE).
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 📞 Контакты
+## 📞 Contact
 
-- **Email**: support@aiagentsplatform.com
-- **Telegram**: [@AIAgentsPlatform](https://t.me/AIAgentsPlatform)
+- **Email**: ivan.meer1990@gmail.com
+- **GitHub**: [@ivan-meer](https://github.com/ivan-meer)
 
 ---
 
-<div align="center">
-    <img src="./src/assets/powered-by-ai.png" alt="Powered by AI" width="250">
-    <p><em>Создано с ❤️ сообществом разработчиков</em></p>
-</div>
+<p align="center">
+    <strong>Built with ❤️ by the AI Agents Community</strong>
+</p>
