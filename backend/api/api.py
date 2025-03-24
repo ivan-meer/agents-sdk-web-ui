@@ -1,6 +1,7 @@
 from fastapi import APIRouter
 
-from api.endpoints import agents, tools, models, runs, users, workspaces, traces
+from api.endpoints import agents, tools
+from backend import models
 
 # Создание основного роутера API
 api_router = APIRouter()
