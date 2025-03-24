@@ -113,9 +113,11 @@ npm install
 ## 📘 Documentation
 
 ### 🏗 Architecture
-- [📄 Architecture Overview](/docs/ARCHITECTURE.md)
-- [🔌 API Reference](/docs/API.md)
-- [🚢 Deployment Guide](/docs/DEPLOYMENT.md)
+- [📄 Architecture Overview](/docs/ARCHITECTURE.md) - Updated 2025-03-20
+- [🔌 API Reference](/docs/API.md) - Updated 2025-03-22
+- [🚢 Deployment Guide](/docs/DEPLOYMENT.md) - Updated 2025-03-18
+- [📝 Frontend Guide](/docs/FRONTEND.md) - Updated 2025-03-24
+- [🤖 AI Agent Documentation](/docs/DOCUMENTATION_GUIDE.md) - Updated 2025-03-24
 
 ### 🤝 Contributing
 - [🛠 Contribution Guidelines](/CONTRIBUTING.md)
@@ -124,23 +126,33 @@ npm install
 
 ## 🛡️ Security
 
-🔒 For vulnerability reporting:
+🔒 Security updates implemented:
+- Added OAuth2 authentication (2025-03-15)
+- Enhanced rate limiting (2025-03-18)
+- Improved input sanitization (2025-03-20)
+
+For vulnerability reporting:
 - Email: `security@aiagents.com`
 - [Security Policy](/SECURITY.md)
 
-## 📊 Project Status
+## 📊 Project Status (Updated 2025-03-24)
 
 ![GitHub stars](https://img.shields.io/github/stars/ivan-meer/agents-sdk-web-ui?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/ivan-meer/agents-sdk-web-ui?style=social)
 ![Open Issues](https://img.shields.io/github/issues/ivan-meer/agents-sdk-web-ui)
+![Last Commit](https://img.shields.io/github/last-commit/ivan-meer/agents-sdk-web-ui)
+![CI Status](https://img.shields.io/github/actions/workflow/status/ivan-meer/agents-sdk-web-ui/ci.yml)
 
-## 🏆 Project Milestones
+## 🏆 Project Milestones (Updated 2025-03-24)
 
-- [x] Basic Architecture
-- [x] Multi-model Support
-- [ ] Comprehensive Documentation
-- [ ] Advanced Security Tools
-- [ ] Full Scalability
+- [x] Basic Architecture (Completed 2025-02-15)
+- [x] Multi-model Support (Completed 2025-03-01)
+- [x] Core Documentation (Completed 2025-03-20)
+- [x] Basic Security Tools (Completed 2025-03-15)
+- [ ] Advanced Security Tools (ETA 2025-04-10)
+- [x] Initial Scalability (Completed 2025-03-10)
+- [ ] Full Scalability (ETA 2025-04-15)
+- [ ] Performance Optimization (ETA 2025-04-20)
 
 ## 📜 License
 
