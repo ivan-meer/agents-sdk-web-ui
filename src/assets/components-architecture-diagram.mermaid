@@ -1,0 +1,19 @@
+graph TD
+    User[Пользователь] --> FrontendUI[Frontend Next.js UI]
+    
+    FrontendUI --> BackendAPI[Backend FastAPI]
+    
+    BackendAPI --> LLMProviders[LLM Провайдеры]
+    LLMProviders --> OpenAI[OpenAI]
+    LLMProviders --> Anthropic[Anthropic]
+    LLMProviders --> Mistral[Mistral AI]
+    
+    BackendAPI --> DatabasePostgres[База данных PostgreSQL]
+    BackendAPI --> RedisCache[Кэш Redis]
+    
+    AgentSystem[Система Агентов] --> BackendAPI
+    AgentSystem --> Tools[Инструменты]
+    AgentSystem --> Tracing[Система трассировки]
+    
+    WebSocket[WebSocket Connections] <--> FrontendUI
+    WebSocket <--> BackendAPI

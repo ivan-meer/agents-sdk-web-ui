@@ -1,0 +1,25 @@
+graph TD
+    Backend --> main.py
+    
+    Backend --> AgentPlatform[Agent Platform]
+    AgentPlatform --> agent.py
+    
+    Backend --> APIModule[API]
+    APIModule --> api.py
+    APIModule --> Endpoints[Endpoints]
+    Endpoints --> agents.py
+    Endpoints --> tools.py
+    
+    Backend --> CoreModule[Core]
+    CoreModule --> settings.py
+    
+    Backend --> DatabaseModule[DB]
+    Backend --> IntegrationsModule[Integrations]
+    Backend --> ModelsModule[Models]
+    ModelsModule --> agent_model[agent.py]
+    
+    Backend --> SchemasModule[Schemas]
+    Backend --> ServicesModule[Services]
+    Backend --> ToolsModule[Tools]
+    Backend --> TracingModule[Tracing]
+    Backend --> UtilsModule[Utils]

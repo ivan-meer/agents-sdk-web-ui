@@ -1,0 +1,21 @@
+graph TD
+    Frontend --> App[App Directory]
+    App --> layout.tsx
+    App --> page.tsx
+    
+    Frontend --> Components[Components]
+    Components --> Layout[Layout]
+    Layout --> Header.tsx
+    Layout --> Footer.tsx
+    
+    Frontend --> Lib[Lib Directory]
+    Frontend --> Store[State Management]
+    
+    Frontend --> Styles[Styles]
+    Styles --> globals.css
+    
+    Frontend --> PublicDir[Public Directory]
+    
+    Frontend --> ConfigFiles[Config Files]
+    ConfigFiles --> package.json
+    ConfigFiles --> tailwind.config.js
