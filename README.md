@@ -1,31 +1,57 @@
 # 🤖 AI Agents SDK Web UI
 
-## 🌟 Overview
+[🇷🇺 Русская версия](README_RU.md)
 
-AI Agents SDK Web UI - это мощная и гибкая платформа для создания, управления и взаимодействия с интеллектуальными агентами на базе искусственного интеллекта.
+<p align="center">
+    <img src="./src/assets/banner.jpg" alt="AI Agents SDK Logo">
+</p>
 
-![Project Banner](./docs/banner.jpg)
+## 🌟 Project Overview
+
+The AI Agents SDK is an innovative platform designed to revolutionize the way developers create, manage, and interact with intelligent AI agents. In an era of rapid technological advancement, our SDK provides a comprehensive toolkit that simplifies the complex process of building adaptive and intelligent systems.
+
+**Key Philosophy**: Democratizing AI agent development by providing a flexible, secure, and easy-to-use framework that empowers developers of all skill levels.
+
+### 🎯 Why AI Agents Matter
+
+In today's fast-paced digital landscape, AI agents are transforming how businesses and individuals solve complex problems:
+- Automating repetitive tasks
+- Providing intelligent insights
+- Enhancing decision-making processes
+- Enabling personalized user experiences
 
 ## 🚀 Key Features
 
-### Comprehensive Agent Management
-- Create and configure AI agents with ease
-- Support for multiple Large Language Models (LLMs)
-- Flexible tooling and integration ecosystem
+### 🧠 Intelligent Agent Management
+Our SDK offers a robust set of tools for creating sophisticated AI agents with minimal complexity:
+- Multi-model support across leading AI providers
+- Flexible configuration options
+- Dynamic tool integration
+- Comprehensive monitoring and tracing
 
-### Advanced Capabilities
-- 🧠 Multi-model support (OpenAI, Anthropic, Mistral)
-- 🛡️ Advanced security mechanisms
-- 📊 Comprehensive agent tracing and monitoring
-- 🔌 Extensible plugin architecture
+### 🔧 Technical Advantages
+- Cross-platform compatibility
+- Advanced security mechanisms
+- Scalable microservice architecture
+- Extensible plugin system
 
-## 💡 Why AI Agents SDK?
+## 🌐 System Architecture
 
-In today's rapidly evolving technological landscape, AI agents are becoming crucial for automating complex tasks, enhancing decision-making, and streamlining workflows. Our SDK provides:
+```mermaid
+graph TD
+    A[User] --> B[Web Interface]
+    B --> C[Backend API]
+    C --> D[Agent Platform]
+    D --> E[LLM Providers]
+    D --> F[Agent Tools]
+    D --> G[Security System]
+    
+    E --> H[OpenAI]
+    E --> I[Anthropic]
+    E --> J[Mistral]
+```
 
-- **Simplified Agent Development**: Build sophisticated AI agents without deep infrastructure knowledge
-- **Cross-Platform Compatibility**: Works seamlessly across different environments
-- **Scalable Architecture**: Design agents that can grow with your project's needs
+Our architecture is designed with modularity and scalability in mind, allowing seamless integration and expansion of AI capabilities.
 
 ## 🛠 Technology Stack
 
@@ -39,17 +65,38 @@ In today's rapidly evolving technological landscape, AI agents are becoming cruc
 ![React](https://img.shields.io/badge/React-18+-blue?style=for-the-badge&logo=react)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5+-white?style=for-the-badge&logo=typescript)
 
+Each technology is carefully chosen to provide optimal performance, developer experience, and future-proofing.
+
+## 📊 Agent Creation Workflow
+
+```mermaid
+sequenceDiagram
+    participant Developer
+    participant WebUI
+    participant AgentPlatform
+    participant LLMProvider
+
+    Developer->>WebUI: Agent Configuration
+    WebUI->>AgentPlatform: Create Agent
+    AgentPlatform->>LLMProvider: Provider Registration
+    LLMProvider-->>AgentPlatform: Confirmation
+    AgentPlatform-->>WebUI: Agent Created
+    WebUI-->>Developer: Success Notification
+```
+
+This workflow illustrates the streamlined process of creating and deploying intelligent agents.
+
 ## 🚀 Quick Start
 
 ### Prerequisites
-- Python 3.9+
-- Node.js 18+
-- Docker (optional)
+- 🐍 Python 3.9+
+- 📦 Node.js 18+
+- 🐳 Docker (optional)
 
 ### Installation
 
 ```bash
-# Clone the repository
+# Clone repository
 git clone https://github.com/ivan-meer/agents-sdk-web-ui.git
 cd agents-sdk-web-ui
 
@@ -63,57 +110,50 @@ cd frontend
 npm install
 ```
 
-### Running the Application
-
-```bash
-# Start backend
-python backend/main.py
-
-# Start frontend
-npm run dev --prefix frontend
-
-# Or use Docker
-docker-compose up --build
-```
-
 ## 📘 Documentation
 
-- [Architecture Overview](docs/ARCHITECTURE.md)
-- [API Reference](docs/API.md)
-- [Deployment Guide](docs/DEPLOYMENT.md)
-- [Contributing Guidelines](CONTRIBUTING.md)
+### 🏗 Architecture
+- [📄 Architecture Overview](/docs/ARCHITECTURE.md)
+- [🔌 API Reference](/docs/API.md)
+- [🚢 Deployment Guide](/docs/DEPLOYMENT.md)
 
-## 🤝 Contributing
-
-We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details on how to get started.
-
-### Ways to Contribute
-- Report bugs
-- Suggest features
-- Submit pull requests
-- Improve documentation
+### 🤝 Contributing
+- [🛠 Contribution Guidelines](/CONTRIBUTING.md)
+- [🐛 Bug Report Template](/.github/ISSUE_TEMPLATE/bug_report.md)
+- [✨ Feature Request Template](/.github/ISSUE_TEMPLATE/feature_request.md)
 
 ## 🛡️ Security
 
-If you discover a security vulnerability, please email security@aiagents.com.
+🔒 For vulnerability reporting:
+- Email: `security@aiagents.com`
+- [Security Policy](/SECURITY.md)
 
 ## 📊 Project Status
 
 ![GitHub stars](https://img.shields.io/github/stars/ivan-meer/agents-sdk-web-ui?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/ivan-meer/agents-sdk-web-ui?style=social)
-![GitHub issues](https://img.shields.io/github/issues/ivan-meer/agents-sdk-web-ui)
+![Open Issues](https://img.shields.io/github/issues/ivan-meer/agents-sdk-web-ui)
+
+## 🏆 Project Milestones
+
+- [x] Basic Architecture
+- [x] Multi-model Support
+- [ ] Comprehensive Documentation
+- [ ] Advanced Security Tools
+- [ ] Full Scalability
 
 ## 📜 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+🔑 MIT License - see [LICENSE](/LICENSE) for details
 
-## 📞 Contact
+## 📞 Contacts
 
-- **Email**: ivan.meer1990@gmail.com
-- **GitHub**: [@ivan-meer](https://github.com/ivan-meer)
+- 📧 **Email**: ivan.meer1990@gmail.com
+- 💻 **GitHub**: [@ivan-meer](https://github.com/ivan-meer)
+- 🌐 **Website**: [aiagents.com](https://aiagents.com)
 
 ---
 
 <p align="center">
-    <strong>Built with ❤️ by the AI Agents Community</strong>
+    <strong>🚀 Created with ❤️ by the AI Developer Community</strong>
 </p>
